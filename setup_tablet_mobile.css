@@ -2,7 +2,7 @@
 @media only screen and (max-width: 63.9375em){
     .header-menu{
         display: none;
-        z-index: 1;
+    
     }
     .header-icon-user{
         display: none;
@@ -81,10 +81,10 @@
     right: 5px;
     }
     .search{
-        z-index: 1;
+        z-index: 9999;
     }
     .container_input{
-        z-index: 1;
+        z-index: 99999;
     }
     .main_left{
         display: none;
