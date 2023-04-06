@@ -1,0 +1,137 @@
+/* moblie and tablet*/
+@media only screen and (max-width: 63.9375em){
+    .header-menu{
+        display: none;
+        z-index: 1;
+    }
+    .header-icon-user{
+        display: none;
+    }
+    .header-link{
+        width: 20%;
+    }
+    i.bx-menu{
+        width: 20%;
+        display: block;
+    }
+    .header-icon-bag:hover .header-icon-bag-msg{
+        display: none;
+    }
+    .menu_tabphone{
+        margin-top: 5px;
+        width: 100%;
+        display: block;
+        box-shadow: 2px 2px 5px #d8d8d8;
+        position: fixed;
+        z-index: 0;
+    }
+    .menu_tabphone ul li a{
+        padding: 15px 16px;
+        line-height: 20px;
+        font-size: 17px;
+        color: #000;
+        font-weight: 500;
+    }
+    .top-menu{
+        width: 100vw;
+        background-color: #fff;
+    }
+    .top-menu li:hover a{
+        background-color: #fff;
+    }
+    .menu2{
+        list-style: none;
+    }
+    .menu2_tabphone{
+        background-color: #fff;
+        width: 100%;
+        padding-left: 20px;
+        box-shadow: 2px 2px 5px #d8d8d8;
+        position: fixed;
+        margin-top: 55px;
+        display: none;
+        z-index: 1;
+
+    }
+    .menu2_tabphone .menu2 li{
+        padding: 20px 20px 20px 0px;
+        border-bottom: 1px solid #d0d0d0;
+        color: #000;
+    }
+    .menu2_tabphone .menu2 li a{
+        font-size: 16px;
+        color: #000;
+    }
+    .menu2 li.li_last{
+        border: none;
+    }
+    i.bx-x{
+        display: none;
+        width: 20%;
+    }
+    .background-header{
+        margin-top: 55px;
+    }
+    .header-icon {
+    padding: 15px 8px;
+    font-size: 27px;
+    }
+    .header-icon-bag-number{
+        top: 30px;
+    right: 5px;
+    }
+    .search{
+        z-index: 1;
+    }
+    .container_input{
+        z-index: 1;
+    }
+    .main_left{
+        display: none;
+    }
+    .main_right{
+        width: 100%;
+        z-index: 0;
+    }
+    .form_login{
+        width: 90%;
+        z-index: 0;
+    }
+}
+/* moblie */
+@media only screen and (max-width: 46.25em){
+    .background-header{
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+    }
+    .background-header-img{
+        width: 100%;
+    }
+    .menu_tabphone ul li a {
+        padding: 15px 7px;
+        line-height: 14px;
+        font-size: 15px;
+        color: #000;
+        font-weight: 500;
+    }
+    .background-header{
+        margin-top: 44px;
+    }
+    .menu2_tabphone{
+        margin-top: 44px;
+    }
+    .menu2_tabphone .menu2 li a{
+        font-size: 15px;
+    }
+}
+/* ipad */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .background-header{
+        width: 100%;
+        height: 370px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    
+}

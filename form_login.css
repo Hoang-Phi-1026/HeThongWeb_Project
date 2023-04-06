@@ -1,0 +1,85 @@
+.login{
+    color: white;
+}
+.main_form_login{
+    width: 100%;
+    display: flex;
+    background-image: url(/photos/background_login.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom ;
+    z-index:5;
+}
+.main_left{
+    width: 50%;
+    height: 695px;
+}
+.main_right{
+    width: 50%;
+    height: 695px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.form_login{
+    width: 70%;
+    height: 65%;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(1.5rem); 
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    z-index:2;
+}
+.login .input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #d4d4d4;
+    background-color: transparent;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+    float: right;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox{
+    font-size: 10px;
+    width: 4%;
+}
+.login-btn{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #0080ff;
+}
+a{
+    color: #1f8fff;
+}
+.title{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.input-name,
+.input-pass,
+.pass,
+.login-btn{
+    color: white;
+    margin-bottom: 20px;
+}
+.small-title{
+    margin-bottom: 5px;
+}
+.dangnhap{
+    color: white;
+}
