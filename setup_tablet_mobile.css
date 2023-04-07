@@ -23,7 +23,7 @@
         display: block;
         box-shadow: 2px 2px 5px #d8d8d8;
         position: fixed;
-        z-index: 0;
+        z-index: 5;
     }
     .menu_tabphone ul li a{
         padding: 15px 16px;
@@ -97,8 +97,12 @@
         width: 90%;
         z-index: 0;
     }
+    .login{
+        z-index: 0;
+    }
     .main_form_register{
-        background-position:center ;
+        background-position:center !important;
+        margin-top: 50px;
     }
 }
 /* moblie */
@@ -126,6 +130,15 @@
     }
     .menu2_tabphone .menu2 li a{
         font-size: 15px;
+    }
+    .register .input{
+        padding: 10px;
+    }
+    .register .day input{
+        padding: 9px;
+    }
+    .login-btn-register{
+        padding: 9px;
     }
 }
 /* ipad */

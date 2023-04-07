@@ -1,13 +1,11 @@
-.form_register{
-    background-color: #F9DDCC;
-}
+
 .main_form_login{
     background-image: url(/photos/background_register.png);
     background-position:bottom ;
     background-color: #000;
     height: 1000px;
 }
-.form_login{
+.form_register{
     height: auto;
     margin-top: 45%;
     z-index: 1;
@@ -52,4 +50,8 @@
 }
 .nam{
     margin-right: 20px;
+}
+
+.login-btn-register{
+    margin-top: 15px;
 }

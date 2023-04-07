@@ -143,12 +143,12 @@
         </ul>
     </div>
 
-    <div class="main_form_login .main_form_register">
+    <div class="main_form_login main_form_register">
         <div class="main_left"></div>
 
         <div class="main_right">
-            <div class="form_login">
-                <form action="" class="login" id="login-form">
+            <div class="form_login form_register">
+                <form action="" class="login register" id="login-form">
                     <h2 class="title">Đăng ký</h2>
                     <p class="small-title">Họ và tên:</p>
                     <input type="text" class="input input-name" id="username">
@@ -168,27 +168,28 @@
                         <input type="text" name="year" placeholder="Năm" required>
                     </div>
 
-                    <p>E-mail:</p>
+                    <p class="small-title">E-mail:</p>
                     <input type="email"  class="input input-email"name="email" required>
                   
-                    <p>Số điện thoại:</p>
+                    <p class="small-title">Số điện thoại:</p>
                     <input type="tel" class="input input-phone"name="phone" required>
                   
-                    <p>Username:</p>
+                    <p class="small-title">Username:</p>
                     <input type="text" class="input input-user" name="username" required>
                   
                     <p class="small-title">Mật khẩu:</p>
                     <input type="password" class="input input-pass" id="password">
                   
-                    <p>Xác nhận mật khẩu:</p>
+                    <p class="small-title">Xác nhận mật khẩu:</p>
                     <input type="password"class="input input-pass2" name="confirm_password" required>
 
-                    <button class="login-btn" id="login-btn" type="submit">Đăng ký</button>
+                    <button class="login-btn login-btn-register" id="login-btn" type="submit">Đăng ký</button>
                     <p>Bạn Chưa Có Tài Khoản? <a href="/form_login.html">Đăng nhập ngay</a></p>
                 </form>
             </div>
         </div>
     </div>
+
 </body>
 <script src="/main_layout.js"></script>
 </html>
