@@ -97,6 +97,9 @@
         width: 90%;
         z-index: 0;
     }
+    .main_form_register{
+        background-position:center ;
+    }
 }
 /* moblie */
 @media only screen and (max-width: 46.25em){

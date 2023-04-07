@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/main_layout.css">
-    <link rel="stylesheet" href="/grid_system.css">
-    <link rel="stylesheet" href="/setup_tablet_mobile.css">
+    <title>register</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/form_login.css">
+    <link rel="stylesheet" href="/main_layout.css">
+    <link rel="stylesheet" href="/setup_tablet_mobile.css">
+    <link rel="stylesheet" href="/form_register.css">
 </head>
 <body>
     <div class="search">
@@ -76,7 +77,7 @@
                             <a href="/form_register.html">Tạo tài khoản ngay</a>
                         </li>
                         <li class="user-list">
-                            <a href="/form_login.html?">Đăng nhập</a>
+                            <a href="/form_login.html">Đăng nhập</a>
                         </li>
                         <li class="list-icon-down user-list">
                             <a href="">Ngôn ngữ</a>
@@ -128,7 +129,7 @@
                 <a href="/form_register.html">Đăng ký tài khoản</a>
             </li>
             <li>
-                <a href="/form_login.html?">Đăng nhập</a>
+                <a href="/form_login.html">Đăng nhập</a>
             </li>
             <li>
                 <a href="">Phụ kiện</a>
@@ -141,10 +142,53 @@
             </li>
         </ul>
     </div>
-    <div class="background-header">
-        <a href=""><img class="background-header-img"src="/photos/banner1.png" alt=""></a>
+
+    <div class="main_form_login .main_form_register">
+        <div class="main_left"></div>
+
+        <div class="main_right">
+            <div class="form_login">
+                <form action="" class="login" id="login-form">
+                    <h2 class="title">Đăng ký</h2>
+                    <p class="small-title">Họ và tên:</p>
+                    <input type="text" class="input input-name" id="username">
+
+                    <div class="sex">
+                        <p class="small-title title-sex">Giới tính:</p>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="nam">Nam</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Nữ</label>
+                    </div>
+
+                    <p class="small-title">Ngày sinh:</p>
+                    <div class="day">
+                        <input type="text" name="day" placeholder="Ngày" required>
+                        <input type="text" name="month" placeholder="Tháng" required>
+                        <input type="text" name="year" placeholder="Năm" required>
+                    </div>
+
+                    <p>E-mail:</p>
+                    <input type="email"  class="input input-email"name="email" required>
+                  
+                    <p>Số điện thoại:</p>
+                    <input type="tel" class="input input-phone"name="phone" required>
+                  
+                    <p>Username:</p>
+                    <input type="text" class="input input-user" name="username" required>
+                  
+                    <p class="small-title">Mật khẩu:</p>
+                    <input type="password" class="input input-pass" id="password">
+                  
+                    <p>Xác nhận mật khẩu:</p>
+                    <input type="password"class="input input-pass2" name="confirm_password" required>
+
+                    <button class="login-btn" id="login-btn" type="submit">Đăng ký</button>
+                    <p>Bạn Chưa Có Tài Khoản? <a href="/form_login.html">Đăng nhập ngay</a></p>
+                </form>
+            </div>
+        </div>
     </div>
-    
 </body>
 <script src="/main_layout.js"></script>
 </html>

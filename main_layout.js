@@ -72,5 +72,5 @@ loginForm.addEventListener("submit", function(event) {
     }
 
     // Chuyển hướng trang
-    window.location.href = "http://10.63.1.97:5500/main_layout.html";
+    window.location.href = "/main_layout.html";
   });
