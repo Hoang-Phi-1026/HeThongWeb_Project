@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/form_login.css">
-    <link rel="stylesheet" href="/main_layout.css">
-    <link rel="stylesheet" href="/setup_tablet_mobile.css">
+    <link rel="stylesheet" href="/CSS/form_login.css">
+    <link rel="stylesheet" href="/CSS/main_layout.css">
+    <link rel="stylesheet" href="/CSS/setup_tablet_mobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="search">
@@ -26,7 +27,7 @@
             <i class='bx bx-x header-icon' ></i>
 
             <div class="header-logo">
-                <a href="/main_layout.html"><img src="/photos/logo_header.png" alt=""></a>
+                <a href="/HTML/main_layout.html"><img src="/photos/logo_header.png" alt=""></a>
             </div>
 
             <div class="header-menu">
@@ -73,10 +74,10 @@
                    <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
                    <ul class="header-icon-user-list">
                         <li class="user-list">
-                            <a href="/form_register.html">Tạo tài khoản ngay</a>
+                            <a href="/HTML/form_register.html">Tạo tài khoản ngay</a>
                         </li>
                         <li class="user-list">
-                            <a href="/form_login.html">Đăng nhập</a>
+                            <a href="/HTML/form_login.html">Đăng nhập</a>
                         </li>
                         <li class="list-icon-down user-list">
                             <a href="">Ngôn ngữ</a>
@@ -125,10 +126,10 @@
     <div class="menu2_tabphone">
         <ul class="menu2">
             <li>
-                <a href="/form_register.html">Đăng ký tài khoản</a>
+                <a href="/HTML/form_register.html">Đăng ký tài khoản</a>
             </li>
             <li>
-                <a href="/form_login.html">Đăng nhập</a>
+                <a href="/HTML/form_login.html">Đăng nhập</a>
             </li>
             <li>
                 <a href="">Phụ kiện</a>
@@ -143,9 +144,9 @@
     </div>
 
     <div class="main_form_login form_register">
-        <div class="main_left"></div>
+        <div class="main_left" data-aos="fade-up"></div>
 
-        <div class="main_right">
+        <div class="main_right" data-aos="fade-down">
             <div class="form_login">
                 <form action="" class="login" id="login-form">
                     <h2 class="title">Đăng nhập</h2>
@@ -161,11 +162,13 @@
                         </div>
                     </div>
                     <button class="login-btn" id="login-btn" type="submit">Đăng nhập</button>
-                    <p>Bạn Chưa Có Tài Khoản? <a href="/form_register.html">Tạo tài khoản ngay</a></p>
+                    <p>Bạn Chưa Có Tài Khoản? <a href="/HTML/form_register.html">Tạo tài khoản ngay</a></p>
                 </form>
             </div>
         </div>
     </div>
 </body>
-<script src="/main_layout.js"></script>
+<script src="/JavaScript/main_layout.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/JavaScript/aos.js"></script>
 </html>

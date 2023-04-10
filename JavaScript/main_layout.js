@@ -38,7 +38,7 @@ searchInput.addEventListener('keydown', function(event) {
 
 
 //banner list
-var images = ["/photos/banner1.png", "/photos/banner2.png", "/photos/banner3.png", "/photos/banner4.png", "/photos/banner5.png"];
+var images = ["/photos/banner1.png", "/photos/banner2.png", "/photos/banner3.png", "/photos/banner4.png", "/photos/banner5.png" ,"/photos/banner6.png"];
 var currentImageIndex = 0;
 
 function changeImage() {
@@ -49,7 +49,6 @@ function changeImage() {
     currentImageIndex = 0;
   }
 }
-
 setInterval(changeImage, 2500);
 //end
 
@@ -72,5 +71,6 @@ loginForm.addEventListener("submit", function(event) {
     }
 
     // Chuyển hướng trang
-    window.location.href = "/main_layout.html";
+    window.location.href = "/HTML/main_layout.html";
   });
+//end
