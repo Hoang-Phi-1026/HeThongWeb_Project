@@ -279,3 +279,11 @@ i.bx-chevron-down{
 .blanks{
     height: 60px;
 }
+
+.main_layout{
+    height: 1000px;
+}
+
+.down_title{
+    display: none;
+}

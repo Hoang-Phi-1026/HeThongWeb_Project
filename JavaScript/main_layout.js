@@ -31,7 +31,7 @@ closeSearch.addEventListener('click', function(){
 searchInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       const searchTerm = searchInput.value;
-      window.location.href = '/main_layout.html';
+      window.location.href = '/HTML/main_layout.html';
     }
   });
 //end

@@ -104,6 +104,52 @@
         background-position:center !important;
         margin-top: 50px;
     }
+/* footer */
+    .header_title-block i .down_title{
+        display: block;
+    }
+
+    .header_title-block{
+        border-bottom: 1px solid #ccc;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .header_title-block h2{
+        margin: 0;
+    }
+
+    .list_title{
+        display: none;
+    }
+
+    .grid.wide.footer_container{
+        border: none;
+        margin: 0 5px;
+    }
+
+    .last_text{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer_logo_last {
+        display: none;
+    }
+
+    .footer_icon{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer_block{
+        height: 250px;
+    }
+
+    .footer_grid{
+        height: 610px;
+        overflow: hidden;
+    }
 }
 /* moblie */
 @media only screen and (max-width: 46.25em){
