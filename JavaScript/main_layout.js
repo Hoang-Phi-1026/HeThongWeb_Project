@@ -49,7 +49,7 @@ function changeImage() {
     currentImageIndex = 0;
   }
 }
-setInterval(changeImage, 2500);
+setInterval(changeImage, 2000);
 //end
 
 //login

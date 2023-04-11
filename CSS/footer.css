@@ -16,7 +16,7 @@
 }
 
 .footer_block{
-    height: 340px;
+    height: 320px;
 }
 
 .block1{
@@ -83,7 +83,7 @@
     margin-bottom: 20px;
 }
 
-.header_title-block i .down_title{
+i.bx.bx-chevron-down.down_title{
     display: none;
 }
 
@@ -110,12 +110,12 @@
 }
 .last_text{
     color: white;
-    width: 70%;
+    width: 60%;
     color: #ccc;
     font-size: 13px;
 }
 .footer_logo_last{
-    width: 30%;
+    width: 40%;
     text-align: right;
 }
 
