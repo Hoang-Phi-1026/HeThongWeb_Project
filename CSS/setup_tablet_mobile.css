@@ -150,8 +150,22 @@ i.bx.bx-chevron-down.down_title{
         overflow: hidden;
     }
 
+    .footer_newsletter{
+        width: 85%;
+    }
+
 /* end */
 
+/* cart */
+    .cart_infor{
+        margin-top: 50px;
+    }
+    .cart_infor-check{
+        justify-content: center;
+    }
+    .infor-check{
+        margin-right: 10px;
+    }
 
 }
 /* moblie */

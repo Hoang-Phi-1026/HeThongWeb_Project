@@ -5,7 +5,7 @@
 }
 
 .footer_grid{
-    background-color: black;
+    background-color: #1D1D1F;
     height: 510px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -123,4 +123,52 @@ i.bx.bx-chevron-down.down_title{
     width: 139px;
     height: 42px;
     object-fit: cover;
+    
+}
+.footer_newsletter-container{
+    background-color: black;
+    padding: 50px 0;
+}
+.footer_newsletter{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.newsletter_input{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.input_newsletter{
+    color: white;
+    width: 100%;
+    padding: 13px;
+    border-radius: 40px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ca4fff;
+    background-color: transparent;
+}
+
+.btn_newsletter{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    border: none;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: linear-gradient(135deg,#B64DE2,#7817a4);
+}
+.heading_newsletter{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
 }

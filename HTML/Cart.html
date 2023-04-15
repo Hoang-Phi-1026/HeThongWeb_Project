@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopDunk</title>
-    <link rel="stylesheet" href="/CSS/main_layout.css">
+    <title>Giỏ hàng của bạn</title>
     <link rel="stylesheet" href="/CSS/grid_system.css">
+    <link rel="stylesheet" href="/CSS/Cart.css">
+    <link rel="stylesheet" href="/CSS/main_layout.css">
     <link rel="stylesheet" href="/CSS/setup_tablet_mobile.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/CSS/footer.css">
 </head>
 <body>
     <div class="search">
@@ -66,10 +66,10 @@
                     <i class='bx bx-search-alt' ></i>
                 </div>
                 <a class="link-icon"href="/HTML/Cart.html"><div class="header-icon header-icon-bag">
-                   <i class='bx bx-shopping-bag' ></i>
-                   <span class="header-icon-bag-number">0</span>
-                   <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng của bạn</div>
-                </div></a>
+                    <i class='bx bx-shopping-bag' ></i>
+                    <span class="header-icon-bag-number">0</span>
+                    <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng của bạn</div>
+                 </div></a>
                 <div class="header-icon header-icon-user">
                    <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
                    <ul class="header-icon-user-list">
@@ -142,14 +142,83 @@
             </li>
         </ul>
     </div>
-    <div class="background-header">
-        <a href=""><img class="background-header-img"src="/photos/banner1.png" alt=""></a>
+    
+    <div class="grid">
+        <div class="grid wide">
+            <div class="itemscope"><a href="/HTML/main_layout.html">Trang chủ </a>><a href=""> Giỏ hàng</a></div>
+        </div>
     </div>
 
-    <div class="main_layout"></div>
+    <div class="grid content_cart">
+        <div class="grid wide container_cart">
+            <div class="row">
+                <div class="col l-8 m-12 c-12">
+                    <div class="cart_main">
+                        <div class="cart_main-img">
+                            <img src="/photos/background_cart.png" alt="">
+                        </div>
 
-    <div id="footer"></div>
+                        <div class="cart_main-text">
+                            <p class="cart-txt">Giỏ hàng của bạn trống</p>
+                        </div>
+
+                        <div class="cart_main-btn">
+                            <a href="" class="cart-cart"><button class=" cart_button cart_update">Cập nhật giỏ hàng</button></a>
+                            <a href="" class="cart-cart"><button class=" cart_button cart_next">Tiếp tục mua sắm</button></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="cart_infor">
+                        <div class="cart_input">
+                            <input type="text" class="cart_voucher-ip" placeholder="Nhập mã giảm giá">
+                            <button class="cart_voucher">Áp dụng</button>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tên mã giảm giá:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tên sản phẩm:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Số lượng:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tổng phụ:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tổng thanh toán:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_infor-check">
+                            <input type="checkbox" class="infor-check">
+                            <p class="infor-check-txt">Tôi đã đọc và đồng ý với điều khoản</p>
+                        </div>
+
+                        <div class="cart_infor-btn">
+                            <button class="infor-btn cart_button">Tiến hành thanh toán</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <div id="footer"></div>
 </body>
 <script src="/JavaScript/main_layout.js"></script>
 <script src="/JavaScript/footer.js"></script>
