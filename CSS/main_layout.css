@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
 }
 .search{
     position: fixed;
@@ -281,9 +283,124 @@ i.bx-chevron-down{
 }
 
 .main_layout{
-    height: 1000px;
+    
 }
 
 .down_title{
     display: none;
+}
+
+
+.topic_content{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.topic_content-item img{
+    /* height: 163px; */
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(208, 208, 208, 0.5);
+}
+.topic_content-item a img{
+    object-fit: cover;
+    width: 100%;
+    
+}
+.block_items{
+    width: 100%;
+    padding: 40px 0;
+}
+.title_items{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.title_items-txt{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.project_item{
+    padding: 40px 20px;
+    height: auto;
+    background-color: #242425;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.project_item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 15px 2px rgba(133, 134, 134, 0.7);
+}
+
+.show-all_items{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.show-all_{
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid #c764f2;
+    border-radius: 8px;
+    padding: 5.5px 45px;
+    color: #c764f2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.show-all_:hover{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    background: linear-gradient(135deg,#B64DE2,#B64DE2,#8927b6,#6f0f9b);
+}
+.project_tag{
+    height: 5%;
+    width: 100%;
+}
+.project_img{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+.project_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.project_details{
+    height: 25%;
+}
+.project_details-name{
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    margin: 15px 0 15px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+}
+.project_details-prices{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.price-1{
+    font-size: 17px;
+    color: #c764f2;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.price-2{
+    align-items: initial;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ccc;
+    text-decoration: line-through;
 }
