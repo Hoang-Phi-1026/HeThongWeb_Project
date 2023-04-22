@@ -63,16 +63,6 @@ body{
     margin-left: 15px;
 }
 
-.itemscope{
-    padding: 20px 0;
-    font-size: 17px;
-    color: white;
-}
-.itemscope a{
-    text-decoration: none;
-    color: white;
-}
-
 .cart_input{
     position: relative;
 }
