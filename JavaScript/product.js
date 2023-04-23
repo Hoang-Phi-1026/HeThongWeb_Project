@@ -12,6 +12,20 @@ function changeIphoneImage() {
 }
 setInterval(changeIphoneImage, 2000);
 
+// banner ipad
+var ipadImages = ["/photos/banner-ipad1.jpeg","/photos/banner-ipad2.jpeg", ];
+var currentIpadImageIndex = 0;
+
+function changeIpadImage() {
+  var banner = document.querySelector(".banner_product-ipad img");
+  banner.src = ipadImages[currentIpadImageIndex];
+  currentIpadImageIndex++;
+  if (currentIpadImageIndex >= ipadImages.length) {
+    currentIpadImageIndex = 0;
+  }
+}
+setInterval(changeIpadImage, 2000);
+
 // banner mac
 var macImages = ["/photos/banner-mac1.jpeg","/photos/banner-mac2.jpeg","/photos/banner-mac3.jpeg" ];
 var currentMacImageIndex = 0;
