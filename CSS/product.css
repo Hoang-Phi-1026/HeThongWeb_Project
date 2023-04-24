@@ -140,4 +140,15 @@
   .right-txt{
     align-items: center;
   }
+
+  .select_product {
+    background-color: transparent;
+    border: 2px solid #c764f2;
+    color: #c764f2;
+  }
+  select option {
+    background-color: black;
+    color: #979797;
+}
+  
   

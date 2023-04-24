@@ -173,6 +173,10 @@ i.bx.bx-chevron-down.down_title{
         display: none;
     }
 
+    .banner_product img{
+        border-radius: 15px;
+    }
+
 }
 /* moblie */
 @media only screen and (max-width: 46.25em){
@@ -301,6 +305,17 @@ i.bx.bx-chevron-down.down_title{
     .review_title {
         font-size: 20px;
     }
+    .choose-cate{
+        height: 100%;
+        width: 100%;
+    }
+    .choose-txt{
+        font-size: 12px;
+    }
+    .choose-container{
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
 
 
 }
@@ -340,5 +355,13 @@ i.bx.bx-chevron-down.down_title{
         
         width: 70%;
 
+    }
+    .topic_content-item img{
+        margin-bottom: 15px;
+        
+    }
+    .choose-cate{
+        width: 100%;
+        padding: 0 15px;
     }
 }
