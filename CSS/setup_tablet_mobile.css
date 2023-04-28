@@ -176,6 +176,9 @@ i.bx.bx-chevron-down.down_title{
     .banner_product img{
         border-radius: 15px;
     }
+    .product_view-more{
+        padding-bottom: 20px;
+    }
 
 }
 /* moblie */
@@ -316,6 +319,15 @@ i.bx.bx-chevron-down.down_title{
         margin-top: 30px;
         margin-bottom: -30px;
     }
+    .bx-chevron-left,
+    .bx-chevron-right{
+    padding: 15x;
+    font-size: 20px;
+    }
+    .view-number-page{
+    padding: 5px 10px;
+    font-size: 16px;
+}
 
 
 }

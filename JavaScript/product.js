@@ -40,6 +40,20 @@ function changeMacImage() {
 }
 setInterval(changeMacImage, 2000);
 
+// banner watch
+var watchImages = ["/photos/banner-watch1.png","/photos/banner-watch2.png", ];
+var currentWatchImageIndex = 0;
+
+function changeWatchImage() {
+  var banner = document.querySelector(".banner_product-watch img");
+  banner.src = watchImages[currentWatchImageIndex];
+  currentWatchImageIndex++;
+  if (currentWatchImageIndex >= watchImages.length) {
+    currentWatchImageIndex = 0;
+  }
+}
+setInterval(changeWatchImage, 2000);
+
 
 //select_product
 // Lắng nghe sự kiện onchange trên phần tử select
