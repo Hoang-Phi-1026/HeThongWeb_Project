@@ -38,39 +38,37 @@ searchInput.addEventListener('keydown', function(event) {
 
 
 //banner list
-var images = ["/photos/banner1.png", "/photos/banner2.png", "/photos/banner3.png", "/photos/banner4.png", "/photos/banner5.png" ,"/photos/banner6.png"];
-var currentImageIndex = 0;
-
-function changeImage() {
-  var banner = document.getElementsByClassName("background-header-img")[0];
-  banner.src = images[currentImageIndex];
-  currentImageIndex++;
-  if (currentImageIndex >= images.length) {
-    currentImageIndex = 0;
-  }
-}
-setInterval(changeImage, 2000);
-//end
-
-//login
-var loginForm = document.getElementById("login-form");
-var usernameInput = document.getElementById("username");
-var passwordInput = document.getElementById("password");
-
-loginForm.addEventListener("submit", function(event) {
+var images = ["/photos/banner1.png", "/photos/banner7.png","/photos/banner2.png", "/photos/banner3.png", "/photos/banner4.png", "/photos/banner5.png" ,"/photos/banner6.png"];
+    var currentImageIndex = 0;
     
-    event.preventDefault(); // ngăn form submit mặc định của trình duyệt
-
-    var username = usernameInput.value;
-    var password = passwordInput.value;
-
-    // Kiểm tra tính hợp lệ của dữ liệu đăng nhập (bỏ qua phần này nếu không cần)
-    if (!username || !password) {
-      alert("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!");
-      return;
+    function changeImage() {
+      var banner = document.getElementsByClassName("background-header-img")[0];
+      banner.src = images[currentImageIndex];
+    
+      var dots = document.getElementsByClassName("dots")[0];
+      var dotSpans = dots.getElementsByTagName("span");
+      for (var i = 0; i < dotSpans.length; i++) {
+        dotSpans[i].classList.remove("active");
+      }
+      dotSpans[currentImageIndex].classList.add("active");
+    
+      currentImageIndex++;
+      if (currentImageIndex >= images.length) {
+        currentImageIndex = 0;
+      }
     }
-
-    // Chuyển hướng trang
-    window.location.href = "/HTML/main_layout.html";
-  });
+    
+    setInterval(changeImage, 2000);
+    
+    var dots = document.getElementsByClassName("dots")[0];
+    for (var i = 0; i < images.length; i++) {
+      var dot = document.createElement("span");
+      dot.setAttribute("onclick", "currentImageIndex = " + i + "; changeImage();");
+      dots.appendChild(dot);
+    }
+    
+    var firstDot = dots.getElementsByTagName("span")[0];
+    firstDot.classList.add("active");
 //end
+
+

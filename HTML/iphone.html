@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/CSS/form_login.css">
+    <link rel="stylesheet" href="/CSS/grid_system.css">
+    <link rel="stylesheet" href="/CSS/grid_system.css">
     <link rel="stylesheet" href="/CSS/main_layout.css">
-    <link rel="stylesheet" href="/CSS/setup_tablet_mobile.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/product.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>iPhone 14 Pro Max</title>
 </head>
 <body>
     <div class="search">
@@ -66,10 +67,10 @@
                     <i class='bx bx-search-alt' ></i>
                 </div>
                 <a class="link-icon"href="/HTML/Cart.html"><div class="header-icon header-icon-bag">
-                    <i class='bx bx-shopping-bag' ></i>
-                    <span class="header-icon-bag-number">0</span>
-                    <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng. Click vào để xem thêm</div>
-                 </div></a>
+                   <i class='bx bx-shopping-bag' ></i>
+                   <span class="header-icon-bag-number">0</span>
+                   <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng. Click vào để xem thêm</div>
+                </div></a>
                 <div class="header-icon header-icon-user">
                    <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
                    <ul class="header-icon-user-list">
@@ -77,7 +78,7 @@
                             <a href="/HTML/form_register.html">Tạo tài khoản ngay</a>
                         </li>
                         <li class="user-list">
-                            <a href="/HTML/form_login.html">Đăng nhập</a>
+                            <a href="/HTML/form_login.html?">Đăng nhập</a>
                         </li>
                         <li class="list-icon-down user-list">
                             <a href="">Ngôn ngữ</a>
@@ -142,34 +143,79 @@
             </li>
         </ul>
     </div>
+    
 
-    <div class="main_form_login form_register">
-        <div class="main_left" data-aos="fade-up"></div>
+    <div class="grid">
+        <div class="grid wide">
+            <div class="itemscope"><a href="/HTML/main_layout.html">Trang chủ </a>><a href="/HTML/product_iphone.html"> iPhone</a>><a href=""> iPhone 14 Pro Max</a></div>
 
-        <div class="main_right" data-aos="fade-down">
-            <div class="form_login">
-                <form action="" class="login" id="login-form">
-                    <h2 class="title">Đăng nhập</h2>
-                    <p class="small-title">Username:</p>
-                    <input type="text" class="input input-name" id="username">
-                    <p class="small-title">Mật khẩu:</p>
-                    <input type="password" class="input input-pass" id="password">
-                    <div class="pass">
-                        <input type="checkbox" name="" id="" class="checkbox">
-                        <div class="check">
-                            <p class="text-check">Nhớ mật khẩu</p>
-                            <a href="" class="link">Quên mật khẩu?</a>
-                        </div>
-                    </div>
-                    <button class="login-btn" id="login-btn" type="submit">Đăng nhập</button>
-                    <p>Bạn Chưa Có Tài Khoản? <a href="/HTML/form_register.html">Tạo tài khoản ngay</a></p>
-                </form>
+            <!-- block_items -->
+            <div class="block_items">
+                <div class="row project_items_body">
+                    
+                    <div class="col l-6"></div>
+
+                    <div class="col l-6"></div>
+                    
+                </div>
+
             </div>
+            <!-- end. -->
+
+            <div class="product_reviews">
+                <div class="review_title">Đanh giá danh mục</div>
+                <div class="row reviews">
+                    <div class="col l-4 m-4 c-4 col-review-left">
+
+                        <div class="review-left">
+                            <div class="star-review">
+                                5
+                                <i class='bx bxs-star'></i>
+                            </div>
+
+                            <div class="star-review">
+                                4
+                                <i class='bx bxs-star'></i>
+                            </div>
+
+                            <div class="star-review">
+                                3
+                                <i class='bx bxs-star'></i>
+                            </div>
+
+                            <div class="star-review">
+                                2
+                                <i class='bx bxs-star'></i>
+                            </div>
+
+                            <div class="star-review">
+                                1
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col l-8 m-8 c-8 col-review-right">
+                        <div class="right-txt">Hiện chưa có đánh giá nào về sản phẩm này !!!</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+
+
+    <div id="footer"></div>
+
+    <div class="on_top">
+        <a href="#home" class="on_top-home">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </div>
 </body>
+<script src="/JavaScript/footer.js"></script>
 <script src="/JavaScript/main_layout.js"></script>
-<script src="/JavaScript/login.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="/JavaScript/aos.js"></script>
+<script src="/JavaScript/product.js"></script>
 </html>

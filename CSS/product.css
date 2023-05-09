@@ -177,6 +177,12 @@ select option {
 .view-number-page2{
   background-color: #515151;
 }
+.view-number-page2:hover{
+  color: #c764f2;
+  background-color: #313131;
+  border: 1px solid #c764f2;
+  padding: 9px 16px;
+}
 .product_view-more a{
   color: white;
 } 

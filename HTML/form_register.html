@@ -69,7 +69,7 @@
                 <a class="link-icon"href="/HTML/Cart.html"><div class="header-icon header-icon-bag">
                     <i class='bx bx-shopping-bag' ></i>
                     <span class="header-icon-bag-number">0</span>
-                    <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng của bạn</div>
+                    <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng. Click vào để xem thêm</div>
                  </div></a>
                 <div class="header-icon header-icon-user">
                    <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
@@ -164,35 +164,37 @@
 
                     <p class="small-title">Ngày sinh:</p>
                     <div class="day">
-                        <input type="text" name="day" placeholder="Ngày" required>
-                        <input type="text" name="month" placeholder="Tháng" required>
-                        <input type="text" name="year" placeholder="Năm" required>
+                        <input type="text" name="day" placeholder="Ngày">
+                        <input type="text" name="month" placeholder="Tháng">
+                        <input type="text" name="year" placeholder="Năm">
                     </div>
 
                     <p class="small-title">E-mail:</p>
-                    <input type="email"  class="input input-email"name="email" required>
+                    <input type="email"  class="input input-email"name="email">
                   
                     <p class="small-title">Số điện thoại:</p>
-                    <input type="tel" class="input input-phone"name="phone" required>
+                    <input type="tel" class="input input-phone"name="phone">
                   
                     <p class="small-title">Username:</p>
-                    <input type="text" class="input input-user" name="username" required>
+                    <input type="text" class="input input-user" name="username">
                   
                     <p class="small-title">Mật khẩu:</p>
                     <input type="password" class="input input-pass" id="password">
                   
                     <p class="small-title">Xác nhận mật khẩu:</p>
-                    <input type="password"class="input input-pass2" name="confirm_password" required>
+                    <input type="password"class="input input-pass2" name="confirm_password">
 
                     <button class="login-btn login-btn-register" id="login-btn" type="submit">Đăng ký</button>
                     <p>Bạn Đã Có Tài Khoản? <a href="/HTML/form_login.html">Đăng nhập ngay</a></p>
                 </form>
             </div>
         </div>
+        
     </div>
 
 </body>
 <script src="/JavaScript/main_layout.js"></script>
+<script src="/JavaScript/register.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="/JavaScript/aos.js"></script>
 </html>
