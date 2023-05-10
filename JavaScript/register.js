@@ -1,10 +1,11 @@
 //form register
 document.getElementById("login-btn").addEventListener("click", function(event){
-    event.preventDefault(); // Ngăn chặn hành động mặc định của nút Submit
+    event.preventDefault(); 
   
-    // Kiểm tra dữ liệu nhập vào
     if(validateForm()){
-        window.location.href ="/HTML/main_layout.html"; // Chuyển hướng tới trang layout.html nếu dữ liệu hợp lệ
+        alert("Bạn đã đăng ký tài khoản thành công!");
+        location.reload(); //load lại trang
+        return true;
     }
   });
   

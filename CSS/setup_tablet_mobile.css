@@ -179,6 +179,15 @@ i.bx.bx-chevron-down.down_title{
     .product_view-more{
         padding-bottom: 20px;
     }
+    .itemscope{
+        margin-top: 50px;
+    }
+    .block_items-product-child{
+        padding: 0;
+    }
+    .right_product_child{
+        margin-top: 20px;
+    }
 
 }
 /* moblie */
@@ -327,7 +336,26 @@ i.bx.bx-chevron-down.down_title{
     .view-number-page{
     padding: 5px 10px;
     font-size: 16px;
-}
+    }
+    .block_items-product-child{
+        padding: 0;
+    }
+    .price-1-child{
+        font-size: 25px;
+    }
+    .price-2-child{
+        font-size: 22px;
+    }
+    .select_product-child{
+        font-size: 10px;
+    }
+    .child-review-txt{
+        font-size: 12px;
+    }
+    .child-btn2{
+        font-size: 16px;
+        padding: 10px;
+    }
 
 
 }
@@ -375,5 +403,14 @@ i.bx.bx-chevron-down.down_title{
     .choose-cate{
         width: 100%;
         padding: 0 15px;
+    }
+    .block_items-product-child{
+        padding: 0;
+    }
+    .price-1-child{
+        font-size: 25px;
+    }
+    .price-2-child{
+        font-size: 22px;
     }
 }
