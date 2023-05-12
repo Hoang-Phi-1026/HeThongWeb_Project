@@ -20,29 +20,29 @@ document.getElementById("login-btn").addEventListener("click", function(event){
     var password = document.getElementById("password").value;
     var confirmPassword = document.getElementsByName("confirm_password")[0].value;
   
-    // Kiểm tra dữ liệu nhập vào
+    // regex
     if(name == "" || email == "" || phone == "" || day == "" || month == "" || year == "" || password == "" || confirmPassword == ""){
-        alert("Vui lòng nhập đầy đủ thông tin!"); // Thông báo lỗi nếu có trường dữ liệu bị bỏ trống
+        alert("Vui lòng nhập đầy đủ thông tin!"); 
         return false;
     }
   
     if(!email.endsWith("@gmail.com")){
-        alert("Email phải có định dạng @gmail.com!"); // Thông báo lỗi nếu email không đúng định dạng
+        alert("Email phải có định dạng @gmail.com!"); /
         return false;
     }
   
     if(!/^\d{10}$/.test(phone)){
-        alert("Số điện thoại phải đủ 10 số!"); // Thông báo lỗi nếu số điện thoại không đúng định dạng
+        alert("Số điện thoại phải đủ 10 số!"); 
         return false;
     }
   
     if(!/^\d+$/.test(day) || !/^\d+$/.test(month) || !/^\d+$/.test(year)){
-        alert("Ngày tháng năm phải là số!"); // Thông báo lỗi nếu ngày tháng năm không đúng định dạng
+        alert("Ngày tháng năm phải là số!"); 
         return false;
     }
   
     if(password != confirmPassword){
-        alert("Mật khẩu và xác nhận mật khẩu không giống nhau!"); // Thông báo lỗi nếu mật khẩu và xác nhận mật khẩu không giống nhau
+        alert("Mật khẩu và xác nhận mật khẩu không giống nhau!"); 
         return false;
     }
   

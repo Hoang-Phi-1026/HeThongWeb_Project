@@ -1,3 +1,4 @@
+//nhấn hiển thị ảnh sp
 const childListImgs = document.querySelectorAll(".child-list-img img");
   const productImg = document.querySelector(".product_child-img img");
 

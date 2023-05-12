@@ -28,10 +28,11 @@ closeSearch.addEventListener('click', function(){
     formSearch.style.display='none';
 });
 
+//search
 searchInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       const searchTerm = searchInput.value;
-      window.location.href = '/HTML/main_layout.html';
+      window.location.href = '/HTML/product_iphone.html';
     }
   });
 //end
@@ -72,7 +73,7 @@ var images = ["/photos/banner1.png", "/photos/banner7.png","/photos/banner2.png"
 //end
 
 
-
+//banner quảng cáo
 const salesHeader = document.querySelector('.sales-header');
 const bannerSalesHeader = document.querySelector('.banner_sales-header');
 

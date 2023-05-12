@@ -56,9 +56,7 @@ setInterval(changeWatchImage, 2000);
 
 
 //select_product
-// Lắng nghe sự kiện onchange trên phần tử select
 document.getElementById("product_sorting").onchange = function() {
-  // Lấy giá trị đã chọn
   var sortValue = this.value;
 
   // Lấy danh sách các sản phẩm
