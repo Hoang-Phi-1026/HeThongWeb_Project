@@ -34,13 +34,23 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+    animation: move-down 1.5s;
 }
 .sales-header img{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
     border: 3px solid rgb(255, 255, 188);
+
 }
+@keyframes move-down {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
 .search{
     position: fixed;
     top: 0;
