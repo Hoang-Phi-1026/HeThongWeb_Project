@@ -188,7 +188,7 @@ i.bx.bx-chevron-down.down_title{
     .right_product_child{
         margin-top: 20px;
     }
-
+    
 }
 /* moblie */
 @media only screen and (max-width: 46.25em){
@@ -289,6 +289,10 @@ i.bx.bx-chevron-down.down_title{
         transform: translateY(-3px);
         box-shadow: 0px 5px 10px 1px rgba(147, 147, 147, 0.7);
     }
+    .project_items:hover{
+        transform: translateY(0px);
+        box-shadow:none;
+    }
 
     .select_product{
         padding: 8px;
@@ -341,10 +345,10 @@ i.bx.bx-chevron-down.down_title{
         padding: 0;
     }
     .price-1-child{
-        font-size: 25px;
+        font-size: 25px !important;
     }
     .price-2-child{
-        font-size: 22px;
+        font-size: 22px !important;
     }
     .select_product-child{
         font-size: 10px;

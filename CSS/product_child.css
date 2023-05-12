@@ -225,3 +225,10 @@
     text-align: left;
     margin-top: 20px;
 }
+.project_item {
+    background-color: transparent;
+}
+.project_item:hover{
+    transform: translateY(0px);
+    box-shadow: none;
+}

@@ -38,7 +38,7 @@ searchInput.addEventListener('keydown', function(event) {
 
 
 //banner list
-var images = ["/photos/banner1.png", "/photos/banner7.png","/photos/banner2.png", "/photos/banner3.png", "/photos/banner4.png", "/photos/banner5.png" ,"/photos/banner6.png"];
+var images = ["/photos/banner1.png", "/photos/banner7.png","/photos/banner2.png", "/photos/banner3.png", "/photos/banner4.png", "/photos/banner5.png" ,"/photos/banner6.png","/photos/banner8.png"];
     var currentImageIndex = 0;
     
     function changeImage() {
@@ -72,3 +72,10 @@ var images = ["/photos/banner1.png", "/photos/banner7.png","/photos/banner2.png"
 //end
 
 
+
+const salesHeader = document.querySelector('.sales-header');
+const bannerSalesHeader = document.querySelector('.banner_sales-header');
+
+salesHeader.addEventListener('click', () => {
+  bannerSalesHeader.style.display = 'none';
+});
