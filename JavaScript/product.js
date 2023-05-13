@@ -65,7 +65,7 @@ document.getElementById("product_sorting").onchange = function() {
   // Chuyển danh sách các sản phẩm thành một mảng
   var productArray = Array.prototype.slice.call(productList.children);
 
-  // Sắp xếp mảng sản phẩm dựa trên giá trị đã chọn
+  // sort sản phẩn
   if (sortValue == "11") {
     // Sắp xếp giá cao đến thấp
     productArray.sort(function(a, b) {

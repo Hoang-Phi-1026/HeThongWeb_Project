@@ -27,7 +27,7 @@ document.getElementById("login-btn").addEventListener("click", function(event){
     }
   
     if(!email.endsWith("@gmail.com")){
-        alert("Email phải có định dạng @gmail.com!"); /
+        alert("Email phải có định dạng @gmail.com!"); 
         return false;
     }
   
